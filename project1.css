@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .flex-item-left {
+    
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 6px;
+    flex: 50%;
+
+    text-align: justify;
+  }
+  
+  .flex-item-right {
+    /* background-color: dodgerblue; */
+    margin-top: 80px;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+.round_img{
+    border-radius : 50%;
+    object-fit:cover;
+    width: 50px;
+    height: 50px;
+}
+.tab11{
+    width:300px;
+    border:10 px ;
+    padding:5px;
+    background-color: rgb(237,228,228);
+    font-size:20px;
+    white-space: nowrap;
+    margin: 20px 50px 25px 50px; 
+    
+}
+/* .textup{
+    
+} */
+
+
+
+
+
+
+
+
