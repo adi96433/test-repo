@@ -1,3 +1,2 @@
 # test-repo
-test applist
-few lines text
+An basic applist for learning stuffs.
